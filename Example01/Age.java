@@ -8,7 +8,7 @@ public class Age {
         InputStreamReader captureTeclado = new InputStreamReader(System.in);
         BufferedReader buffer = new BufferedReader(captureTeclado);
         System.out.println("Enter your age here Please:");
-        String strAge = buffer .readLine();
+        String strAge = buffer.readLine();
 
         // Here converting age to Number;
         Integer age = Integer.parseInt(strAge);
