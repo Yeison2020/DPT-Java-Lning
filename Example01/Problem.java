@@ -29,22 +29,27 @@ public class Problem {
         System.out.println("Add Your third Number here");
         String strNumber3 = buffer.readLine();
         Integer number3 = Integer.parseInt(strNumber3);
+
+
+
+   
+
+
+
+
+
+
+    }
+
+
+    private static void calculateHigherNumber(Integer number1,Integer number2,Integer number3){
         Integer Numbermayor = number1;
-        if (number2 >Numbermayor){
+        if (number2 > Numbermayor){
             Numbermayor = number2;
         } if (number3 > Numbermayor){
             Numbermayor = number3;
         }
-
-
-        System.out.println(Numbermayor);
-
-
-
-
-
-
-
+        System.out.println("The biggest Number here is = " + Numbermayor);
     }
     
 }
