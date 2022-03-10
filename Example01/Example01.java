@@ -10,8 +10,10 @@ public class Example01 {
         items.forEach(item-> {
             if(item.equals("a")){
                 System.out.println("A");
+          
             } else {
                 System.out.println("Not A");
+         
             }
 
 
