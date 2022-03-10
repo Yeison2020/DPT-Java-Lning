@@ -29,14 +29,7 @@ public class Problem {
         System.out.println("Add Your third Number here");
         String strNumber3 = buffer.readLine();
         Integer number3 = Integer.parseInt(strNumber3);
-
-
-
-   
-
-
-
-
+        calculateHigherNumber(number1,number2,number3);
 
 
     }
