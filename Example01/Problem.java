@@ -18,20 +18,17 @@ public class Problem {
 
 
         System.out.println("Add Your first Number");
-        String strNumber1 = buffer.readLine();
-        Integer number1 = Integer.parseInt(strNumber1);
+        Integer number1 = returnNumber();
 
 
 
         System.out.println("Add Your second Number here");
-        String strNumber2 = buffer.readLine();
-        Integer number2 = Integer.parseInt(strNumber2);
+        Integer number2 = returnNumber();
 
 
         
         System.out.println("Add Your third Number here");
-        String strNumber3 = buffer.readLine();
-        Integer number3 = Integer.parseInt(strNumber3);
+        Integer number3 = returnNumber();
 
 
         // Functions to handle and System.out.println my inputs
