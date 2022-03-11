@@ -12,28 +12,38 @@ import java.io.InputStreamReader;
 public class Problem {
     public static void main(String[] args) throws IOException{
         System.out.println("Welcome to Numbers here start");
-        InputStreamReader capture_Value = new InputStreamReader(System.in);
-        BufferedReader buffer = new BufferedReader(capture_Value);
+        Integer numero =  returnNumber();
+        Boolean pairNumber = (numero % 2) == 0;
+
+        if(pairNumber){
+            System.out.println("Is a par Number");
+
+        } else {
+            System.out.println("Not a pair Number");
+        }
+
+        // InputStreamReader capture_Value = new InputStreamReader(System.in);
+        // BufferedReader buffer = new BufferedReader(capture_Value);
 
 
 
-        System.out.println("Add Your first Number");
-        Integer number1 = returnNumber();
+        // System.out.println("Add Your first Number");
+        // Integer number1 = returnNumber();
 
 
 
-        System.out.println("Add Your second Number here");
-        Integer number2 = returnNumber();
+        // System.out.println("Add Your second Number here");
+        // Integer number2 = returnNumber();
 
 
         
-        System.out.println("Add Your third Number here");
-        Integer number3 = returnNumber();
+        // System.out.println("Add Your third Number here");
+        // Integer number3 = returnNumber();
 
 
-        // Functions to handle and System.out.println my inputs
-        calculateHigherNumber(number1,number2,number3);
-        calculateLowerNumber(number1,number2,number3);
+        // // Functions to handle and System.out.println my inputs
+        // calculateHigherNumber(number1,number2,number3);
+        // calculateLowerNumber(number1,number2,number3);
 
 
     }
@@ -59,8 +69,6 @@ public class Problem {
         }
         System.out.println("The Lowest Number here is = " + Numbermayor);
     }
-
-
     private static Integer returnNumber() throws IOException{
         InputStreamReader capture_Value = new InputStreamReader(System.in);
         BufferedReader buffer = new BufferedReader(capture_Value);
@@ -69,6 +77,25 @@ public class Problem {
 
         return InteNumber ; 
     }
+
+    // private static Integer promedioNumber(Integer number1 ,Integer number2 , Integer number3){
+    //     Integer total = number1 + number2 + number3;
+    //     Double promedioTotal = Double.valueOf(total) / 3;
+    //     System.out.println(promedioTotal);
+   
+
+
+    // }
+
+
+
+
+    
+
+
+
+
+
 
     
 }
