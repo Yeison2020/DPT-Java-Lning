@@ -62,5 +62,16 @@ public class Problem {
         }
         System.out.println("The Lowest Number here is = " + Numbermayor);
     }
+
+
+    private static Integer returnNumber() throws IOException{
+        InputStreamReader capture_Value = new InputStreamReader(System.in);
+        BufferedReader buffer = new BufferedReader(capture_Value);
+        String NumberEntered = buffer.readLine();
+        Integer InteNumber = Integer.parseInt(NumberEntered);
+
+        return InteNumber ; 
+    }
+
     
 }

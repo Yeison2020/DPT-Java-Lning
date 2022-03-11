@@ -4,7 +4,7 @@ public class HelloWorld {
     public static void main(String[] args){
         String nameUser = "Yeison ";
         String lastNameUser = "Casado";
-        System.out.println(nameUser+ lastNameUser);
+        System.out.println(nameUser + lastNameUser);
     }
     
 }
